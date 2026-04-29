@@ -20,7 +20,7 @@ This repository contains the completed **Lab Activity 2: API Security, Encryptio
    - Specifically logs warnings (e.g., *"Multiple failed login attempts detected"*) to a dedicated `security.log` file for auditing purposes.
 
 ## Testing Documentation
-Screenshots verifying the security testing requirements have been uploaded to the `Module 4 Lab 2_Screenshot` folder. They demonstrate the following scenarios:
+Screenshots verifying the security testing requirements have been uploaded to the `Module 4 Lab 2_Screenshot` folder. It demonstrate the following scenarios:
 * **Access without authentication:** `401 Unauthorized` responses.
 * **Excessive API requests:** `429 Too Many Requests` responses triggered by rate limiting.
 * **Invalid encrypted payloads / Encryption working:** Validating the data stored securely.
